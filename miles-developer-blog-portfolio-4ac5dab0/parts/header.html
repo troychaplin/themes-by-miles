@@ -1,0 +1,39 @@
+# Analysis
+
+The site header contains:
+1. A logo/brand link ("JDOE")
+2. A navigation menu with 5 links (Blog, Projects, Readme, Uses, About)
+
+Looking at the CSS:
+- `.site-header` has `position: sticky` and flex layout
+- `.site-logo` is the brand text (not an image)
+- `.site-nav` contains navigation links
+- The header has a scroll effect (`.is-scrolled` class adds backdrop blur)
+
+This should be converted to `wp:navigation` which will:
+- Contain both the logo and nav links
+- Provide built-in responsive mobile menu
+- Use `wp:site-title` for the logo
+- Use `wp:navigation-link` for each nav link (self-closing)
+- Include `overlayMenu: "mobile"` for responsive behavior
+- Use a spacer to push nav links to the right (matching the original `justify-content: space-between` layout)
+
+# WordPress Block Markup
+
+<!-- wp:navigation {"metadata":{"name":"Site Header"},"className":"site-header","overlayMenu":"mobile","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<!-- wp:site-title {"className":"site-logo","isLink":true} /-->
+
+<!-- wp:spacer {"width":"0","style":{"layout":{"flexSize":"1","selfStretch":"fit"}}} -->
+<div style="width:0" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:navigation-link {"label":"Blog","url":"#blog"} /-->
+
+<!-- wp:navigation-link {"label":"Projects","url":"#projects"} /-->
+
+<!-- wp:navigation-link {"label":"Readme","url":"#readme"} /-->
+
+<!-- wp:navigation-link {"label":"Uses","url":"#uses"} /-->
+
+<!-- wp:navigation-link {"label":"About","url":"#about"} /-->
+<!-- /wp:navigation -->
