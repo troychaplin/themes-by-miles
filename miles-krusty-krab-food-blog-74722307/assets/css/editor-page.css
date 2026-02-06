@@ -27,14 +27,13 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
-
-/* Hide decorative/animation elements in editor */
-/* The LLM adds this class to empty divs used for CSS animations/backgrounds */
-/* WordPress wraps blocks in extra divs, so we need :has() to hide the parent wrapper too */
-.editor-styles-wrapper .miles-editor-hidden,
-.editor-styles-wrapper :has(> .miles-editor-hidden) {
-  display: none !important;
-}
+/* Decorative elements visibility in editor */
+    /* Animation elements are shown but with disabled animations for editing */
+    .editor-styles-wrapper .hero-bubbles,
+    .editor-styles-wrapper .categories-bubbles,
+    .editor-styles-wrapper .floating-bubble {
+      animation: none !important;
+    }
 
 /* Reduce extra space WordPress adds after content for block insertion */
 /* WordPress adds a ::after pseudo-element on body for click area - minimize it */
