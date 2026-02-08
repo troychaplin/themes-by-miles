@@ -1,0 +1,907 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "ice-white",
+          "name": "Ice White",
+          "color": "#F0F7FF"
+        },
+        {
+          "slug": "frost",
+          "name": "Frost",
+          "color": "#D6EAFF"
+        },
+        {
+          "slug": "frost-light",
+          "name": "Frost Light",
+          "color": "#e4f0fb"
+        },
+        {
+          "slug": "ice-blue",
+          "name": "Ice Blue",
+          "color": "#8EC8F2"
+        },
+        {
+          "slug": "deep-ice",
+          "name": "Deep Ice",
+          "color": "#4A90C4"
+        },
+        {
+          "slug": "castle-shadow",
+          "name": "Castle Shadow",
+          "color": "#2C5F8A"
+        },
+        {
+          "slug": "kamek-yellow",
+          "name": "Kamek Yellow",
+          "color": "#F5D547"
+        },
+        {
+          "slug": "gold-coin",
+          "name": "Gold Coin",
+          "color": "#E8B800"
+        },
+        {
+          "slug": "snow",
+          "name": "Snow",
+          "color": "#FFFFFF"
+        },
+        {
+          "slug": "midnight-ice",
+          "name": "Midnight Ice",
+          "color": "#1A3A5C"
+        },
+        {
+          "slug": "penguin-dark",
+          "name": "Penguin Dark",
+          "color": "#0F2138"
+        },
+        {
+          "slug": "sky-white",
+          "name": "Sky White",
+          "color": "#f4f9ff"
+        },
+        {
+          "slug": "card-glass",
+          "name": "Card Glass",
+          "color": "rgba(255, 255, 255, 0.65)"
+        },
+        {
+          "slug": "card-border",
+          "name": "Card Border",
+          "color": "rgba(142, 200, 242, 0.35)"
+        },
+        {
+          "slug": "card-shadow",
+          "name": "Card Shadow",
+          "color": "rgba(42, 122, 181, 0.1)"
+        },
+        {
+          "slug": "text-muted",
+          "name": "Text Muted",
+          "color": "rgba(26, 58, 92, 0.55)"
+        },
+        {
+          "slug": "glass-bg",
+          "name": "Glass Bg",
+          "color": "rgba(255, 255, 255, 0.55)"
+        },
+        {
+          "slug": "glass-border",
+          "name": "Glass Border",
+          "color": "rgba(142, 200, 242, 0.3)"
+        }
+      ],
+      "duotone": [
+        {
+          "slug": "primary-contrast",
+          "name": "Primary Contrast",
+          "colors": [
+            "#0F2138",
+            "rgba(255, 255, 255, 0.55)"
+          ]
+        },
+        {
+          "slug": "accent-dark",
+          "name": "Accent Dark",
+          "colors": [
+            "#0F2138",
+            "rgba(142, 200, 242, 0.3)"
+          ]
+        },
+        {
+          "slug": "accent-light",
+          "name": "Accent Light",
+          "colors": [
+            "rgba(142, 200, 242, 0.3)",
+            "rgba(255, 255, 255, 0.55)"
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "extracted-linear-1",
+          "name": "Linear Gradient 1",
+          "gradient": "linear-gradient(0deg, rgba(142, 200, 242, 0.06) 1px, transparent 1px)"
+        },
+        {
+          "slug": "extracted-linear-2",
+          "name": "Linear Gradient 2",
+          "gradient": "linear-gradient(90deg, rgba(142, 200, 242, 0.06) 1px, transparent 1px)"
+        },
+        {
+          "slug": "extracted-radial-3",
+          "name": "Radial Gradient 3",
+          "gradient": "radial-gradient(ellipse at 30% 50%, rgba(0,0,0,0.5) 0%, transparent 60%)"
+        },
+        {
+          "slug": "extracted-linear-4",
+          "name": "Linear Gradient 4",
+          "gradient": "linear-gradient(\n    135deg,\n    transparent 0%, transparent 35%,\n    rgba(142, 200, 242, 0.05) 42%,\n    rgba(255, 255, 255, 0.15) 50%,\n    rgba(142, 200, 242, 0.05) 58%,\n    transparent 65%, transparent 100%\n  )"
+        },
+        {
+          "slug": "extracted-linear-5",
+          "name": "Linear Gradient 5",
+          "gradient": "linear-gradient(135deg, rgba(214, 234, 255, 0.4) 0%, rgba(255, 255, 255, 0.5) 100%)"
+        },
+        {
+          "slug": "extracted-linear-6",
+          "name": "Linear Gradient 6",
+          "gradient": "linear-gradient(135deg, rgba(245, 213, 71, 0.1) 0%, rgba(245, 213, 71, 0.06) 100%)"
+        },
+        {
+          "slug": "extracted-radial-7",
+          "name": "Radial Gradient 7",
+          "gradient": "radial-gradient(circle, rgba(245, 213, 71, 0.08) 0%, transparent 70%)"
+        },
+        {
+          "slug": "extracted-linear-8",
+          "name": "Linear Gradient 8",
+          "gradient": "linear-gradient(0deg, rgba(142, 200, 242, 0.04) 1px, transparent 1px)"
+        },
+        {
+          "slug": "extracted-linear-9",
+          "name": "Linear Gradient 9",
+          "gradient": "linear-gradient(90deg, rgba(142, 200, 242, 0.04) 1px, transparent 1px)"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Fredoka\", sans-serif",
+          "name": "Fredoka",
+          "slug": "fredoka",
+          "fontFace": [
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/fredoka/400-hebrew.woff2"
+              ],
+              "unicodeRange": "U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/fredoka/400-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/fredoka/400-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/fredoka/500-hebrew.woff2"
+              ],
+              "unicodeRange": "U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/fredoka/500-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/fredoka/500-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/fredoka/600-hebrew.woff2"
+              ],
+              "unicodeRange": "U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/fredoka/600-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/fredoka/600-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/fredoka/700-hebrew.woff2"
+              ],
+              "unicodeRange": "U+0307-0308, U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/fredoka/700-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Fredoka",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/fredoka/700-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Nunito\", sans-serif",
+          "name": "Nunito",
+          "slug": "nunito",
+          "fontFace": [
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/nunito/400-cyrillic-ext.woff2"
+              ],
+              "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/nunito/400-cyrillic.woff2"
+              ],
+              "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/nunito/400-vietnamese.woff2"
+              ],
+              "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/nunito/400-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "400",
+              "src": [
+                "file:./assets/fonts/nunito/400-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/nunito/500-cyrillic-ext.woff2"
+              ],
+              "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/nunito/500-cyrillic.woff2"
+              ],
+              "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/nunito/500-vietnamese.woff2"
+              ],
+              "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/nunito/500-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "500",
+              "src": [
+                "file:./assets/fonts/nunito/500-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/nunito/600-cyrillic-ext.woff2"
+              ],
+              "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/nunito/600-cyrillic.woff2"
+              ],
+              "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/nunito/600-vietnamese.woff2"
+              ],
+              "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/nunito/600-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "600",
+              "src": [
+                "file:./assets/fonts/nunito/600-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/nunito/700-cyrillic-ext.woff2"
+              ],
+              "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/nunito/700-cyrillic.woff2"
+              ],
+              "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/nunito/700-vietnamese.woff2"
+              ],
+              "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/nunito/700-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "src": [
+                "file:./assets/fonts/nunito/700-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/nunito/800-cyrillic-ext.woff2"
+              ],
+              "unicodeRange": "U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/nunito/800-cyrillic.woff2"
+              ],
+              "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/nunito/800-vietnamese.woff2"
+              ],
+              "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/nunito/800-latin-ext.woff2"
+              ],
+              "unicodeRange": "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF"
+            },
+            {
+              "fontFamily": "Nunito",
+              "fontStyle": "normal",
+              "fontWeight": "800",
+              "src": [
+                "file:./assets/fonts/nunito/800-latin.woff2"
+              ],
+              "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "0.8rem"
+        },
+        {
+          "slug": "medium",
+          "name": "Medium",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.125rem"
+        },
+        {
+          "slug": "x-large",
+          "name": "Extra Large",
+          "size": "1.25rem"
+        },
+        {
+          "slug": "xx-large",
+          "name": "2X Large",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "huge",
+          "name": "Huge",
+          "size": "2rem",
+          "fluid": {
+            "min": "1.5rem",
+            "max": "2rem"
+          }
+        },
+        {
+          "slug": "huge-2",
+          "name": "Huge 2",
+          "size": "2.75rem",
+          "fluid": {
+            "min": "2rem",
+            "max": "2.75rem"
+          }
+        },
+        {
+          "slug": "gigantic",
+          "name": "Gigantic",
+          "size": "11rem",
+          "fluid": {
+            "min": "4rem",
+            "max": "11rem"
+          }
+        },
+        {
+          "slug": "gigantic-2",
+          "name": "Gigantic 2",
+          "size": "1.35rem",
+          "fluid": {
+            "min": "1rem",
+            "max": "1.35rem"
+          }
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": null,
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "slug": "20",
+          "name": "X-Small",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "30",
+          "name": "Small",
+          "size": "1rem"
+        },
+        {
+          "slug": "40",
+          "name": "Medium",
+          "size": "2rem"
+        },
+        {
+          "slug": "50",
+          "name": "Large",
+          "size": "4rem"
+        },
+        {
+          "slug": "60",
+          "name": "X-Large",
+          "size": "6rem"
+        },
+        {
+          "slug": "65",
+          "name": "Spacing 65",
+          "size": "8rem"
+        }
+      ],
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "%",
+        "vh",
+        "vw"
+      ]
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "slug": "extracted-inner-1",
+          "name": "Inner Shadow 1",
+          "shadow": "0 4px 16px rgba(245, 213, 71, 0.3),\n    0 1px 3px rgba(245, 213, 71, 0.2),\n    inset 0 1px 0 rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "slug": "extracted-inner-2",
+          "name": "Inner Shadow 2",
+          "shadow": "0 8px 28px rgba(245, 213, 71, 0.35),\n    0 2px 6px rgba(245, 213, 71, 0.2),\n    inset 0 1px 0 rgba(255, 255, 255, 0.4)"
+        },
+        {
+          "slug": "extracted-layered-3",
+          "name": "Layered Shadow 3",
+          "shadow": "0 4px 16px rgba(15, 33, 56, 0.3),\n    0 1px 3px rgba(15, 33, 56, 0.2)"
+        },
+        {
+          "slug": "extracted-layered-4",
+          "name": "Layered Shadow 4",
+          "shadow": "0 8px 28px rgba(15, 33, 56, 0.35),\n    0 2px 6px rgba(15, 33, 56, 0.2)"
+        },
+        {
+          "slug": "extracted-5",
+          "name": "Shadow 5",
+          "shadow": "0 4px 24px rgba(15, 33, 56, 0.2)"
+        },
+        {
+          "slug": "extracted-6",
+          "name": "Shadow 6",
+          "shadow": "0 0 10px rgba(245, 213, 71, 0.5)"
+        },
+        {
+          "slug": "extracted-7",
+          "name": "Shadow 7",
+          "shadow": "0 0 10px rgba(245, 213, 71, 0.3)"
+        },
+        {
+          "slug": "extracted-inner-8",
+          "name": "Inner Shadow 8",
+          "shadow": "0 16px 48px rgba(42, 122, 181, 0.18),\n    0 4px 12px rgba(42, 122, 181, 0.08),\n    inset 0 1px 0 rgba(255, 255, 255, 0.7)"
+        },
+        {
+          "slug": "extracted-9",
+          "name": "Shadow 9",
+          "shadow": "0 4px 12px rgba(245, 213, 71, 0.3)"
+        },
+        {
+          "slug": "extracted-layered-10",
+          "name": "Layered Shadow 10",
+          "shadow": "0 20px 60px rgba(42, 122, 181, 0.16),\n    0 4px 12px rgba(42, 122, 181, 0.08)"
+        },
+        {
+          "slug": "extracted-11",
+          "name": "Shadow 11",
+          "shadow": "0 2px 8px rgba(245, 213, 71, 0.3)"
+        },
+        {
+          "slug": "extracted-inner-12",
+          "name": "Inner Shadow 12",
+          "shadow": "0 4px 16px rgba(245, 213, 71, 0.35),\n    inset 0 -3px 0 rgba(0, 0, 0, 0.1),\n    inset 0 1px 0 rgba(255, 255, 255, 0.35)"
+        },
+        {
+          "slug": "extracted-13",
+          "name": "Shadow 13",
+          "shadow": "0 12px 40px rgba(42, 122, 181, 0.15)"
+        }
+      ]
+    },
+    "custom": {
+      "lineHeight": {
+        "none": "1",
+        "tight": "1.1",
+        "snug": "1.25",
+        "normal": "1.5",
+        "relaxed": "1.625",
+        "loose": "2"
+      },
+      "fontWeight": {
+        "thin": "100",
+        "extralight": "200",
+        "light": "300",
+        "normal": "400",
+        "medium": "500",
+        "semibold": "600",
+        "bold": "700",
+        "extrabold": "800",
+        "black": "900"
+      }
+    }
+  },
+  "styles": {
+    "css": ".post-type-page .editor-post-title { display: none !important; }\n.post-type-post.editor-styles-wrapper { padding: 2rem; }\n.post-type-post .editor-post-title__input { font-size: 2.5rem; }",
+    "spacing": {
+      "blockGap": "0",
+      "padding": {
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0"
+      }
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "0",
+          "width": "0",
+          "style": "none"
+        },
+        "typography": {
+          "fontSize": "inherit",
+          "fontFamily": "inherit",
+          "lineHeight": "inherit"
+        },
+        ":hover": {
+          "color": {
+            "background": "inherit",
+            "text": "inherit"
+          }
+        },
+        ":focus": {
+          "outline": {
+            "width": "2px",
+            "style": "solid",
+            "offset": "2px"
+          }
+        }
+      },
+      "link": {
+        "color": {
+          "text": "inherit"
+        },
+        ":hover": {
+          "color": {
+            "text": "inherit"
+          },
+          "typography": {
+            "textDecoration": "underline"
+          }
+        },
+        ":focus": {
+          "outline": {
+            "width": "2px",
+            "style": "solid",
+            "offset": "2px"
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "inherit",
+          "fontWeight": "inherit",
+          "lineHeight": "inherit"
+        },
+        "color": {
+          "text": "inherit"
+        }
+      }
+    },
+    "blocks": {
+      "core/list": {
+        "spacing": {
+          "padding": {
+            "left": "0"
+          },
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        },
+        "typography": {
+          "fontSize": "inherit",
+          "lineHeight": "inherit"
+        }
+      },
+      "core/separator": {
+        "border": {
+          "width": "0",
+          "style": "none"
+        },
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        }
+      },
+      "core/code": {
+        "spacing": {
+          "padding": {
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0"
+          },
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        },
+        "typography": {
+          "fontSize": "inherit",
+          "fontFamily": "inherit"
+        },
+        "color": {
+          "background": "transparent"
+        }
+      },
+      "core/table": {
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        }
+      },
+      "core/details": {
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "0"
+          }
+        }
+      },
+      "core/navigation": {
+        "typography": {
+          "fontSize": "inherit",
+          "fontFamily": "inherit",
+          "lineHeight": "inherit"
+        }
+      },
+      "core/navigation-link": {
+        "typography": {
+          "fontSize": "inherit",
+          "fontFamily": "inherit"
+        }
+      },
+      "core/quote": {
+        "border": {
+          "left": {
+            "width": "4px",
+            "style": "solid",
+            "color": "var(--wp--preset--color--ice-white)"
+          }
+        },
+        "spacing": {
+          "padding": {
+            "left": "var(--wp--preset--spacing--40, 1.5rem)"
+          }
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}
