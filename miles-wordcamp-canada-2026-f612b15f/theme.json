@@ -846,16 +846,26 @@
       }
     }
   },
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Header",
-      "area": "header"
-    },
-    {
-      "name": "footer",
-      "title": "Footer",
-      "area": "footer"
-    }
+"templateParts": [
+        {
+          "name": "header",
+          "title": "Header",
+          "area": "header"
+        },
+        {
+          "name": "header-small",
+          "title": "Header (Small)",
+          "area": "header"
+        },
+        {
+          "name": "header-page",
+          "title": "Header (Page)",
+          "area": "header"
+        },
+        {
+          "name": "footer",
+          "title": "Footer",
+          "area": "footer"
+        }
   ]
 }
